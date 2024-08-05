@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom right , rgb(101, 213, 238), pink,rgb(255, 225, 103));
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+section{
+    border: 2px solid white;
+    background-color: white;
+    width: 90%;
+    padding: 40px;
+    margin: auto;
+    margin-top: 220px;
+
+}
+
+#name,#mark,select{
+    margin-bottom: 5px;
+    height: 4vh;
+    width: 100%;
+}
+
+
+
+.find{
+	 background-color: rgb(246, 249, 250);
+    box-shadow: -2px 0px 25px 2px pink;
+}
+
+#register{
+	display: block;
+	text-align: right;
+	margin-right:11px; 
+}
+
+nav{ 
+   	background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+
+    
+}
+nav ul li a{
+    color: rgb(102, 225, 252)   ;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+}
+
+nav ul li a:hover{
+    color: pink;
+    text-shadow: 2px -3px 6px plum;
+    
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size:2rem;
+}
+
+#button{
+    height: 4vh;
+    background-color: rgba(19, 231, 255, 0.873);
+    color: white;
+    border: 0px solid white;
+    border-radius: 5px;
+    margin-top: 9px;
+    width: 100%;
+    padding: 3px;
+    
+}
+
+
+@media (min-width:443px)
+{
+    section{
+        width:70% ;
+    }
+}
+
+@media (min-width:640px){
+    section{
+        width:60% ;
+    }
+  
+}
+@media (min-width:700px){
+    section{
+        width: 50% ;
+    }
+
+}
+    @media (min-width:900px){
+        section{
+            width: 40% ;
+        }
+      
+}
+
+@media (min-width:1100px){
+    section{
+        width: 400px ;
+    }
+
+}
